@@ -284,3 +284,63 @@ main {
         }
     }
 }
+
+@media (max-width:1080px) {
+    nav{
+        & .left h4{
+            font-size: 3vw;            
+        }
+        & .right h4{
+            font-size: 3vw;            
+
+        }
+    }
+    main{
+        overflow-x: hidden;
+    }
+    .hero-section .right img{
+        height: 150px;
+        
+
+    }
+    .hero-section .left .heading h1{
+    
+        & h1{
+            font-size: 10vw;
+    
+        }
+        
+
+    }
+    .footer {
+        display: flex;
+        flex-direction: column;
+        & .left{
+            width: 100%;
+            margin: auto;
+        }
+        & .right{
+            padding-top:10vw;
+
+            width: 100%;
+            margin: auto;
+            & .bottom{
+                & .right{
+                    height: 110%;
+                    width: 60%;
+                    padding: 5vw;
+                    & p{
+                        font-size: 2.6vw;
+                        width: 90%;
+                    }
+                    & h1{
+                        font-size: 10vw;
+                    }
+                }
+            }
+        }
+     
+    }
+    
+    
+}
